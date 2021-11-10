@@ -1,5 +1,8 @@
 namespace RefactorThis.Persistence
 {
+    /// <summary>
+    /// Adding Comments 
+    /// </summary>
 	public class Payment
 	{
 		public decimal Amount { get; set; }
