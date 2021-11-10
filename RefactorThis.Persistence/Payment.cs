@@ -1,7 +1,7 @@
 namespace RefactorThis.Persistence
 {
     /// <summary>
-    /// Adding Comments 
+    /// Representing Payment entity
     /// </summary>
 	public class Payment
 	{
