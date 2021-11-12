@@ -2,6 +2,8 @@ using System;
 using System.Linq;
 using RefactorThis.Persistence;
 
+//using RefactorThis.Domain.Entities;
+
 namespace RefactorThis.Domain
 {
 	public class InvoicePaymentProcessor
@@ -13,7 +15,16 @@ namespace RefactorThis.Domain
 			_invoiceRepository = invoiceRepository;
 		}
 
-		public string ProcessPayment( Payment payment )
+        private void GetInvoice(Payment payment)
+        {
+            ////var inv = _invoiceRepository.GetInvoice(payment.Reference);
+            //// service.GetInvoice ();
+
+        }
+
+
+
+        public string ProcessPayment( Payment payment )
 		{
 			var inv = _invoiceRepository.GetInvoice( payment.Reference );
 

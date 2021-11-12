@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using RefactorThis.Persistence;
 
-namespace RefactorThis.Domain
+namespace RefactorThis.Domain.Services
 {
 	public class InvoicePaymentProcessor
 	{
